@@ -17,6 +17,7 @@ public class College {
     private Principal principal;
 
     @Autowired
+//    @Qualifier("scienceTeacher")
     @Qualifier
     private Teacher teacher;
 
